@@ -2,3 +2,13 @@ target/
 debug/
 **/*.rs.bk
 *.pdb
+
+# local cfw deployment artifacts
+*.log
+*.bak
+*.bak-*
+config_shred.toml.bak-*
+config_shred_v1.toml.bak
+__pycache__/
+*.pyc
+*.pre-redact
